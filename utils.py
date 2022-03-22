@@ -54,8 +54,8 @@ def get_pair_statistics(vocab):
         first_char = word[0]
         for char in word[1:]:
             pairs[first_char, char] += freq
-            indices[prev_char, char][i] += 1
-            prev_char = char
+            indices[first_char, char][i] += 1
+            first_char = char
 
     return pairs, indices
 
