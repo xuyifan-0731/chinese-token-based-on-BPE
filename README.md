@@ -1,5 +1,5 @@
 # BPE:基于BPE 的汉语tokenization
-
+基于subword-nmt修改
 ## 运行环境
 python3.8  
 没有其他额外环境
